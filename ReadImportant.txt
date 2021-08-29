@@ -1,1 +1,2 @@
 
+You need to generate "Vendor" folder using command in cmd/terminal -> "composer dump-autoload"
