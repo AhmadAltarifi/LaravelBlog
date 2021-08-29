@@ -1,0 +1,94 @@
+body {
+    margin: 0px;
+    background-color: rgb(56, 56, 56);
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.light-mode .bigtitle h3 {
+    color: black;
+}
+
+.light-mode .card-header {
+    color: black;
+}
+
+.light-mode .card-body h4 {
+    color: black;
+}
+
+.light-mode .myfonty {
+    color: black;
+}
+
+.light-mode .carousel-indicators li {
+    background: black;
+}
+
+.light-mode .carousel-indicators .active {
+    background: #00aeda;
+}
+
+.light-mode .card-body a {
+    color: black;
+}
+
+.light-mode .card {
+    border: 1px solid rgb(56, 56, 56);
+}
+
+.bigtitle {
+    margin-top: 15px;
+}
+
+.bigtitle h3 {
+    color: #00aeda;
+    text-align: center;
+    font-family: 'El Messiri', sans-serif;
+}
+
+@media screen and (max-width:480px) {
+    .bigtitle {
+        margin-top: 2px;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    letter-spacing: 0px;
+}
+
+@font-face {
+    src: url(/fonts/helvetica-neue-lt-arabic-75-bold.ttf);
+    font-family: hel;
+}
+
+::selection {
+    color: white;
+    background: #181818;
+}
+
+@font-face {
+    font-family: "SF Display";
+    font-weight: 700;
+    src: url("https://sf.abarba.me/SF-UI-Display-Bold.otf");
+}
+
+.trending {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.trending h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
